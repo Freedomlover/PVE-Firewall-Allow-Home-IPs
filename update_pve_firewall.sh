@@ -6,7 +6,7 @@
 # ระบุ URL DDNS ของบ้าน 
 # - ถ้ามี 1 URL แต่ Resolve ได้ 4 IP (Round-robin) ใส่แค่อันเดียว
 # - ถ้ามี 4 URL แยกกัน ให้ใส่ในวงเล็บโดยเว้นวรรค เช่น ("wan1.ddns.net" "wan2.ddns.net")
-DDNS_URLS=("171-home-wan1.igolf.in.th" "171-home-wan2.igolf.in.th" "171-home-wan3.igolf.in.th" "171-home-wan4.igolf.in.th")
+DDNS_URLS=("wan1.domain.com" "wan2.domain.com")
 
 IPSET_NAME="home_wan_ips"
 CACHE_FILE="/var/tmp/pve_home_wan_ips_cache.txt"
